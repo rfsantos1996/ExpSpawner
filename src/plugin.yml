@@ -1,0 +1,5 @@
+name: ExpSpawner
+version: 0.1
+author: rfsantos1996
+main: com.jabyftw.exps.ExpSpawner
+description: Replace mob spawners with EXP
