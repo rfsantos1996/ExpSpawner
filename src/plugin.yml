@@ -1,5 +1,14 @@
 name: ExpSpawner
-version: 0.1
+version: 0.2
 author: rfsantos1996
 main: com.jabyftw.exps.ExpSpawner
 description: Replace mob spawners with EXP
+permissions:
+   expspawner.select:
+     description: Allow you to select a mobspawner.
+     default: op
+commands:
+   expspawner:
+     description: Select the mobspawner
+     permission: expspawner.select
+     usage: Use /expspawner
